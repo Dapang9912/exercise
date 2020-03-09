@@ -1,0 +1,395 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Microsoft YaHei UI;
+}
+/*顶部*/
+.header{
+	width: 100%;
+	height: 80px;
+	background: #07cbc9;
+	position: fixed;
+	z-index: 2;
+}
+.header .logo{
+	float: left;
+	margin-top: 16px;
+	margin-left: 80px;
+}
+/*导航*/
+.header .nav{
+	float: right;
+	padding-right: 80px;
+}
+.header .nav li{
+	float: left;
+	list-style: none;
+	width: 100px;
+	line-height: 80px;
+}
+.header .nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+.header .nav li a:hover{
+	color: #808080;
+}
+/*banner图*/
+.banner{
+	top: 80px;
+	position: absolute;
+	width: 100%;
+}
+.banner .banner-img{
+	width: 100%;
+	height: 600px;
+}
+.banner .banner-img img{
+	width: 100%;
+	height: 600px;
+}
+/*遮罩层*/
+.banner .toplayer{
+	position:absolute;
+	width: 100%;
+	height: 600px;
+	background: #000;
+	opacity: 0.05;
+	top:0;
+}
+/*表单*/
+.banner .banner-input{
+	width: 511px;
+	height: 350px;
+	position: absolute;
+	top: 21.2%;	
+	margin-left:33.3%;
+}
+.banner .banner-input form .input-a {
+	width: 507px;
+	height: 41px;
+	border:2px solid #808080;
+	margin: 5px 0 5px 0;
+	background-color:transparent;
+}
+.banner .banner-input form .input-b{
+	height: 119px;
+	line-height: 39px;
+}
+.banner  .banner-input .input-1 form .submit{
+	width: 125px;
+	height: 41px;
+	color:#fff; 
+	margin-left:190px;
+}
+.banner .banner-input form .input-a:hover{
+	border-color: #07cbc9;
+}
+.banner  .banner-input .input-1 form .submit:hover{
+	background: #07cbc9;
+	border: none;
+}
+.clear{
+	clear: both;
+}
+/*ABOUT区*/
+/*上半区*/
+.about{
+	position: absolute;
+	top: 680px;
+	width: 100%;
+	margin-bottom: 80px;
+}
+.about .about-title {
+	width: 50%;
+	margin: 30px 25% 10px 25%;
+
+}
+.about .about-title h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.about .about-title .br-1{
+	width: 30px;
+	height: 3px;
+	background: #07cbc9;
+	margin: 10px auto;
+}
+.about .about-title-1{
+	text-align: center;
+	color: #797979;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+/*about区文字图片文字块*/
+.about .mix{
+	width: 1044px;
+	height: 380px;
+	margin: 0 auto;
+	position: relative;
+}
+.word-left{
+	width: 198px;
+	height: 380px;
+	float: left;
+	font-size: 30px;
+}
+.word-left-1{
+
+}
+.center-image{
+	width: 568px;
+	height: 380px;
+	background: black;
+	float: left;
+}
+.center-image .image-center-1{
+	width: 568px;
+	height: 380px;
+}
+.word-right{
+	width: 268px;
+	height: 380px;
+	float: left;
+}
+.word-right-top{
+	width: 238px;
+	height: 144px;
+	margin-left:30px;
+	border: solid 1px #07cbc9;
+	text-align: center;
+}
+.word-right-1{
+	margin: 22px auto 22px auto;
+	width: 180px;
+	height: 100px;
+}
+.word-right-1 .br-1{
+	width: 40px;
+	height: 3px;
+	background: #07cbc9;
+	margin: 10px auto 10px auto;	
+}
+.number{
+	font-size: 30px;
+	font-weight: bold;
+}
+.word-right-bottom{
+	width: 238px;
+	height: 144px;
+	margin-left:30px;
+	margin-top: 30px;
+	border: solid 1px #07cbc9;
+	text-align: center;
+}
+.word-right-2{
+	margin: 22px auto 22px auto;
+	width: 180px;
+	height: 100px;
+}
+.word-right-bottom .br-1{
+	width: 40px;
+	height: 3px;
+	background: #07cbc9;
+	margin: 10px auto 10px auto;
+}
+.clear{
+	clear: both;
+}
+/*浮出按钮*/
+.transparent{
+	width: 370px;
+	height: 246px;
+	position: absolute;
+	top: 90px;
+	left: -20px;
+	background:rgba(255,255,255,0.5)
+}
+.transparent-border{
+		border: solid 1px #c5c5c5;
+		width: 370px;
+		height: 246px;
+}
+.transparent-word{
+	font-size: 15px;
+	margin-top: 25px;
+	margin-left: 20px;
+	line-height: 22px;
+	font-weight: bold;
+}
+.transparent-sublim{
+	width: 102px;
+	height: 45px;
+	color: #fff;
+	font-size: 16px;
+	background: #000;
+	border-width:0px
+}
+.transparent-sublim:hover{
+	background-color:transparent; 
+	border:solid 1px #000;
+}
+.transparent-input{
+	margin-left: 20px;
+	margin-top: 25px;
+}
+/*about下部分：交错显示*/
+
+.about-bottom{
+	width: 100%;
+	min-height: 600px;
+	background: red;
+	margin-top: 60px;
+}
+.about-bottom-1{
+	min-height: 300px;
+	background: green;
+}
+.squre{
+	min-height: 300px;
+	width: 25%;
+}
+/*第一行*/
+.square-a{
+	background: blue;
+	float: left;
+}
+.square-b{
+	width: 25%;
+	background: #07cbc9;
+	float: left;
+}
+/*文案*/
+.squre-text{
+	width: 85%;
+	margin:30px auto auto auto;
+	color: #fff;
+}
+.squre-text-1{
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+.squre-text-2{
+	font-size: 12px;
+	color: #ddd9d4;
+
+}
+/*按钮*/
+.squre-text-3m{
+	text-align: center;
+	margin-top: 30px;
+}
+.squre-text-sublim:hover{
+	background-color:transparent; 
+	border:solid 1px #000;
+}
+.squre-text-sublim{
+	width: 90px;
+	height: 40px;
+	color: #fff;
+	background: #000;
+	border-width: 0;
+}
+.square-c{
+	background: blue;
+	float: left;
+}
+.square-d{
+	background: #07cbc9;
+	float: left;
+}
+.images-a{
+	display: block;
+	width: 100%;
+	height: 300px;
+}
+/*第二行*/
+.square-e{
+	background: #07cbc9;
+	float: left;
+}
+.square-f{
+	background: blue;
+	float: left;
+}
+.square-g{
+	background:#07cbc9;
+	float: left;
+}
+.square-h{
+	background: blue;
+	float: left;
+}
+/*gallery区*/
+.gallery{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 1891.4px;
+	margin-top: 50px;
+}
+/*标题区*/
+.gally-top{
+	text-align: center;
+}
+.gally-top .br-1{
+	width: 30px;
+	height: 3px;
+	background: #07cbc9;
+	margin: 10px auto;
+}
+.gallery-title-1{
+	color: #797979;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+/*图片区*/
+.galley-pic{
+	width: 1120px;
+	height:329px;
+	margin: 0 auto;
+	text-align: center;
+}
+.galley-pic-1{
+	width: 360px;
+	height: 304px;
+	float: left;
+}
+.galley-pic-2{
+	width: 360px;
+	height: 304px;
+	float: left;
+	margin-left: 20px;
+}
+.galley-pic-3{
+	width: 360px;
+	height: 304px;
+	float: right;
+}
+.galley-pic-img{
+	display: block;
+}
+/*图片里的文字框*/
+.galley-pic-t{
+	height: 64px;
+	width: 360px;
+	background: #000;
+	margin-top: 0;
+	color: #FFF;
+	line-height: 64px;
+	text-align: left;
+}
+.footer{
+	width: 100%;
+	height: 80px;
+	background: #07cbc9;
+	position:absolute;
+	top: 2770px;
+	color: #fff;
+	text-align: center;
+	line-height: 80px;
+}
